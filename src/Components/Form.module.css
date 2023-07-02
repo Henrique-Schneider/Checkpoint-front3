@@ -1,0 +1,37 @@
+.card {
+  width: 23rem;
+  gap: 1rem;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 2rem;
+  height: calc(100vh - 86px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardDark {
+  background-color: #31313196;
+}
+
+.inputSpacing + .inputSpacing {
+  margin: 1rem 0;
+}
+
+.Container {
+  width: 23rem;
+  height: 50%;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.successMessage {
+  color: green;
+  font-weight: bold;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+}
